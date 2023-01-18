@@ -1,0 +1,437 @@
+
+
+/*Globales*/
+html{
+    font-size: 62.5% ; /* equivale 1 rem a 10 px */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h2{
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+
+p{
+    font-size: 1.6rem;
+}
+
+/* Botones */
+
+.boton{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+}
+.boton-adquirir{
+    background-color: grey;
+}
+
+.boton-comprar{
+    background-color: white;
+    color: black;  
+}
+
+.boton-enviar{
+    background-color: black;
+}
+
+/* Utilidades */
+
+.negrita{
+    font-weight: 700;
+}
+.contenedor{
+max-width: 120rem;
+margin: 0 auto;
+padding-bottom: 5rem;
+}
+.contenedor-video{
+    max-width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fondo{
+background-color: rgb(18 9 9);
+background-size: cover;
+color: aliceblue;
+}
+
+.barra{
+
+    display: flex;
+
+}
+
+.barra a{
+    padding-top: 3rem;
+    padding-right: 2rem;
+}
+
+.principal{
+    font-size: 5.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.presentacion{
+    padding-top: 5rem;
+    padding-left: 5rem;
+}
+
+.presentacion iframe{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    justify-content: center;
+    top: 0;
+    width: 10%;
+   
+}
+
+.separacion{
+    padding-bottom: 5rem;
+}
+
+/*COVER*/
+
+
+.container-cover{
+    width: 100%;
+    height: 50rem;
+    background-color: rgb(18 9 9);
+    background-position: right;
+    
+}
+
+
+.cover{
+    max-width: 120rem;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+   
+}
+
+.container-cover .texto{
+    max-width: 40rem;
+    
+}
+
+.container-cover .texto h2{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.container-cover .texto p{
+    font-size: 2rem;
+    margin-top: 4rem;
+    font-weight: bold;
+}
+
+/* Sección de promesas */
+
+.container-cover-blanco{
+    max-width: 120rem;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    
+    justify-content: space-between;
+    padding-bottom: 10rem;
+}
+
+.contenedor-blanco{
+    width: 100%;
+    background-position: right;
+    font-size: 4.1rem;
+    margin-bottom: 0%;
+}
+#puntos{
+    padding-top: 4rem;
+}
+
+.contenedor-blanco .img1{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.contenedor-blanco .img2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-blanco .img3{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.bloque-promesas {
+    font-size: 3.8rem;
+}
+
+.img1 img{
+    width: 25rem;
+}
+.img2 img{
+    width: 25rem;
+}
+.img3 img{
+    width: 25rem;
+}
+
+/* Sección versiones de reto caiman */
+
+main{
+    background-color: rgb(18 9 9);  
+}
+footer{
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: sans-serif;
+    color: black;
+    margin: .5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container-cover-versiones{
+  /*  flex-wrap: wrap;*/
+  max-width: 120rem;
+  height: 100%;
+  margin: auto;
+  padding-top: 1rem;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: aliceblue;
+}
+
+.container-cover-versiones h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue; 
+}
+
+.cuadricula-versiones{
+   
+    padding-bottom: 3rem;
+   
+   
+}
+.versiones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.versiones .texto{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 2rem; 
+}
+.versiones .texto h3{
+    font-size:2rem;
+    padding-bottom: 2rem;
+}
+.versiones .texto li{
+    font-size: 1.4rem;
+    margin-top: .3rem;
+    font-weight: bold; 
+    list-style-type: none; 
+}
+.versiones .texto a{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.versiones .img-caiman{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+}
+
+.version1 {
+    background-color: grey;
+    display: flex;
+    width: 45.4rem;
+    height: 38.8rem;
+    margin: .5rem;  
+}
+
+
+.version2{
+    background-color: grey;
+    display: flex;
+    width: 45.4rem;
+    height: 38.8rem;
+    margin: .5rem; 
+}
+.version2 .texto a{
+    margin-top: 4.5rem;
+}
+
+.version3{
+    background-color: grey;
+    display: flex;
+    width: 45.4rem;
+    height: 38.8rem;
+    margin: .5rem;
+}
+.version4{
+    border-color: white;
+    border-width: .6rem;
+    border-style:solid;
+    display: flex;
+    width: 44.8rem;
+    height: 38.2rem;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+
+/* Viñeta */
+.viñeta h2{
+    color:rgb(18 9 9) ;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight:bold;
+    font-style: italic;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+/* Taller digital */
+.taller-digital{
+    display: flex;
+    padding-bottom: 0;
+}
+
+.taller-digital .texto{
+    padding-top: 10rem;
+    padding-left: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.taller-digital .texto h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.taller-digital .texto p{
+    font-size: 3rem;
+}
+.taller-digital .lic img{
+    display: flex;
+    width: 50rem;
+    height: 55rem;
+    object-fit: cover;
+    padding-bottom: 0;
+    padding-right: 8rem;
+}
+
+/* Formulario*/
+.contenedor-formulario{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.titulo-formulario{
+    padding-top: 5rem;
+    padding-left: 10rem;
+    font-size: 4rem;
+}
+.titulo-formulario h2{
+    padding-left: 25rem;
+}
+.form{
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    width: 54rem;
+    height: 43rem;
+    padding: 2rem;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.divisor{
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 2rem;
+    
+}
+.divisor input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: .1rem;
+    border-bottom-style: solid;
+    border-color: black;
+}
+
+.divisor .inputContainer{
+    flex-wrap:wrap ;
+    width: 46%;
+    min-height: 2.5rem;
+    padding-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.contenedor-boton{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10rem ;
+}
+.contenedor-boton .submitBtn{
+    background-color: black;
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 5rem;
+    border-radius: 2rem;
+}
+.inputContainer select{
+    width: 80%;
+}
+.inputContainer .label3{
+    margin-left: 0;
+}
+
+.inputContainer .input4{
+    display: flex;
+    width: 185%;
+}

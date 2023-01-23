@@ -5,7 +5,7 @@ html{
     font-size: 62.5% ; /* equivale 1 rem a 10 px */
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
 
 }
 h2{
@@ -18,17 +18,25 @@ p{
     font-size: 1.6rem;
 }
 
+li{
+    font-size: 1.3rem;
+}
+
 /* Botones */
 
 .boton{
     color: white;
     font-weight: 700;
     text-decoration: none;
-    font-size: 1.8rem;
-    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    padding: .5rem 2rem;
+    border-radius: 2rem;
 }
 .boton-adquirir{
-    background-color: grey;
+    padding: 1rem 3rem;
+    font-size: 1.6rem;
+    background-color: #FF5F5D;
+    color: white;
 }
 
 .boton-comprar{
@@ -46,54 +54,36 @@ p{
     font-weight: 700;
 }
 .contenedor{
-max-width: 120rem;
-margin: 0 auto;
-padding-bottom: 5rem;
-}
-.video iframe{
     max-width: 120rem;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    margin: 0 20rem;
+    padding-bottom: 1rem;
 }
 
 .fondo{
-background-color: rgb(18 9 9);
+background-color: rgb(255, 255, 255);
 background-size: cover;
-color: aliceblue;
+color: rgb(0, 0, 0);
+}
+.fondo-formulario{
+    background-color: #41591D;
 }
 
 .barra{
-
     display: flex;
-
 }
 
 .barra a{
-    padding-top: 3rem;
-    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
 }
 
 .principal{
-    font-size: 5.7rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4.5rem;
 }
 
 .presentacion{
     padding-top: 5rem;
     padding-left: 5rem;
-}
-
-.presentacion iframe{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 10%;
-    justify-content: center;
-    top: 0;
-    width: 10%;
-   
 }
 
 .separacion{
@@ -106,7 +96,8 @@ color: aliceblue;
 .container-cover{
     width: 100%;
     height: 50rem;
-    background-color: rgb(18 9 9);
+    background-image: url(../img/Caiman\ 2\ \(1\).svg);
+    background-size: cover;
     background-position: right;
     
 }
@@ -115,7 +106,7 @@ color: aliceblue;
 .cover{
     max-width: 120rem;
     height: 90%;
-    margin: auto;
+    margin: 0 20rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -130,7 +121,7 @@ color: aliceblue;
 }
 
 .container-cover .texto h2{
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 600;
 }
 
@@ -143,23 +134,27 @@ color: aliceblue;
 /* Sección de promesas */
 
 .container-cover-blanco{
-    max-width: 120rem;
-    height: 100%;
-    margin: auto;
-    display: flex;
     
-    justify-content: space-between;
+    height: 100%;
+    display: flex;
+    align-items: center;
     padding-bottom: 10rem;
 }
 
 .contenedor-blanco{
+    margin: 0 20rem;
     width: 100%;
-    background-position: right;
     font-size: 4.1rem;
-    margin-bottom: 0%;
+    padding-bottom: 1rem;
 }
 #puntos{
     padding-top: 4rem;
+}
+.titulo-promesa {
+    width: 30rem;
+    display: flex;
+    height: 10rem;
+    flex-wrap: wrap;
 }
 
 .contenedor-blanco .img1{
@@ -198,13 +193,13 @@ color: aliceblue;
 /* Sección versiones de reto caiman */
 
 main{
-    background-color: rgb(18 9 9);  
+    background-color: #41591D;  
 }
 footer{
     font-size: 3rem;
     font-weight: 100;
     font-family: sans-serif;
-    color: black;
+    color: rgb(0, 0, 0);
     margin: .5rem;
     display: flex;
     justify-content: center;
@@ -219,14 +214,14 @@ footer{
   width: 100%;
   justify-content: space-between;
   flex-wrap: wrap;
-  color: aliceblue;
+  color: rgb(19, 19, 20);
 }
 
 .container-cover-versiones h2{
     display: flex;
     justify-content: center;
     text-align: center;
-    color: aliceblue; 
+    color: rgb(255, 255, 255); 
 }
 
 .cuadricula-versiones{
@@ -252,13 +247,16 @@ footer{
     padding-bottom: 2rem;
 }
 .versiones .texto li{
-    font-size: 1.4rem;
     margin-top: .3rem;
     font-weight: bold; 
     list-style-type: none; 
 }
+.texto .lista{
+    margin-bottom: 5rem;
+}
 .versiones .texto a{
-    margin-top: 6rem;
+    background-color: white;
+    color: black;  
     display: flex;
     justify-content: center;
     text-transform: uppercase;
@@ -268,39 +266,49 @@ footer{
     align-items: center;
     justify-content: center;
     margin-right: 3rem;
+ 
 }
 
 .version1 {
-    background-color: grey;
+    background: rgba(212, 212, 212, 0.596);
+    border-radius:2rem ;
+    backdrop-filter: blur(0.2rem);
     display: flex;
     width: 45.4rem;
     height: 38.8rem;
     margin: .5rem;  
 }
+.version1 .boton {
+    justify-content: space-between;
+    
+}
 
 
 .version2{
-    background-color: grey;
+    background: rgba(212, 212, 212, 0.596);
+    border-radius:2rem ;
+    backdrop-filter: blur(0.2rem);
     display: flex;
     width: 45.4rem;
     height: 38.8rem;
     margin: .5rem; 
 }
-.version2 .texto a{
-    margin-top: 4.5rem;
-}
+
 
 .version3{
-    background-color: grey;
+    background: rgba(212, 212, 212, 0.596);
+    backdrop-filter: blur(0.2rem);
+    border-radius: 2rem;
     display: flex;
     width: 45.4rem;
     height: 38.8rem;
     margin: .5rem;
 }
 .version4{
-    border-color: white;
-    border-width: .6rem;
+    border-color: rgba(212, 212, 212, 0.596);
+    border-width: .1rem;
     border-style:solid;
+    border-radius:2rem ;
     display: flex;
     width: 44.8rem;
     height: 38.2rem;
@@ -312,10 +320,10 @@ footer{
 
 /* Viñeta */
 .viñeta h2{
-    color:rgb(18 9 9) ;
+    color:rgb(0, 0, 0) ;
     justify-content: center;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 3rem;
     font-weight:bold;
     font-style: italic;
     font-size: 3rem;
@@ -330,7 +338,7 @@ footer{
 
 .taller-digital .texto{
     padding-top: 10rem;
-    padding-left: 15rem;
+    
     display: flex;
     flex-direction: column;
 }
@@ -348,7 +356,7 @@ footer{
     height: 55rem;
     object-fit: cover;
     padding-bottom: 0;
-    padding-right: 8rem;
+    
 }
 
 /* Formulario*/
@@ -357,18 +365,22 @@ footer{
     margin: 0 auto;
     padding-bottom: 10rem;
     display: flex;
-    flex-direction: column;
+    
     justify-content: center;
     align-items: center;
     }
 
 .titulo-formulario{
     padding-top: 5rem;
-    padding-left: 10rem;
+    justify-content: center;
     font-size: 4rem;
 }
 .titulo-formulario h2{
-    padding-left: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 10rem;
 }
 .form{
     background-color: white;

@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reto C.A.I.M.A.N</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/estilos.css"> 
     <link rel="stylesheet" href="css/animaciones.css"> 
@@ -31,18 +34,24 @@
                     Listo para operar las 24 horas del día.</p>
                     <a class="boton boton-adquirir" href="#">Adquirir</a>
                 </div>
-                <div class="video animate__animated animate__flipInY">
-                    <iframe width=501  height=327 preload="none" playsinline="true" src="https://video.wixstatic.com/video/2c10f0_9b0c4ce2bc464dbcaad2aba085ed1ff9/720p/mp4/file.mp4"></iframe>
-                </div>
+               
             </div>
+        </div>
+    </section>
+        
+    <section>
+        <div class="viñeta">
+            <h2>¡PERMITIENDO ESTAR PRESENTE... EN UN MERCADO </br>GLOBAL Y DIGITAL!</h2>
         </div>
     </section>
 
     <section>
         <div class="container-cover-blanco">
             <div class="contenedor-blanco">
-                <img id="puntos" src="img/puntos.png" alt="">
-                <h2>La PROMESA </br>es que logres...</h2>
+                <div class="titulo-promesa">
+                    <img id="puntos" src="img/puntos.png" alt="">
+                    <h2>La PROMESA </br>es que logres...</h2>
+                </div>
                 <div class="bloque-promesas">
                     <div class="img1">
                         <img src="img/recurso-1.webp"  width=200 alt="">
@@ -69,12 +78,16 @@
                     <div class="version1">
                         <div class="texto">
                             <h3>RETO C.A.I.M.A.N 3 DÍAS</h3>
-                            <li>✅ Video de inducción</li>
-                            <li>✅ 2 materiales de apoyo</li>
-                            <li>✅ 3 clases de 3 horas</li>
-                            <li>✅ Acceso 24/7</li>
-                            <li>✅ 2 actividades de apoyo</li>
-                            <a class="boton boton-comprar" href="#">Comprar</a>
+                            <div class="lista">
+                                <li>✅ Video de inducción</li>
+                                <li>✅ 2 materiales de apoyo</li>
+                                <li>✅ 3 clases de 3 horas</li>
+                                <li>✅ Acceso 24/7</li>
+                                <li>✅ 2 actividades de apoyo</li>
+                            </div>
+                            <div class="boton boton-comprar">
+                                <a href="#">Comprar</a>
+                            </div>
                         </div>
                         <div class="img-caiman">
                             <img src="img/vesion-caiman.webp" alt="">
@@ -83,13 +96,17 @@
                     <div class="version2">
                         <div class="texto">
                             <h3>RETO C.A.I.M.A.N REMASTERIZADO</h3>
-                            <li>✅ Optimiza tus campañas</li>
-                            <li>✅ Aprende a usar un host</li>
-                            <li>✅ Adquiere tu dominio</li>
-                            <li>✅ Landing Page vs Sitio Web</li>
-                            <li>✅ Back-End</li>
-                            <li>✅ Front-End</li>
-                            <a class="boton boton-comprar" href="#">Comprar</a>
+                            <div class="lista">
+                                <li>✅ Optimiza tus campañas</li>
+                                <li>✅ Aprende a usar un host</li>
+                                <li>✅ Adquiere tu dominio</li>
+                                <li>✅ Landing Page vs Sitio Web</li>
+                                <li>✅ Back-End</li>
+                                <li>✅ Front-End</li>
+                            </div>
+                            <div class="boton boton-comprar">
+                                <a href="#">Comprar</a>
+                            </div>
                         </div>
                         <div class="img-caiman">
                             <img src="img/vesion-caiman.webp" alt="">
@@ -98,11 +115,15 @@
                     <div class="version3">
                         <div class="texto">
                             <h3>RETO C.A.I.M.A.N SIMPLIFICADO</h3>
-                            <li>✅ Clases más cortas</li>
-                            <li>✅ Mayor eficiencia</li>
-                            <li>✅ Manejo de automatizaciones</li>
-                            <li>✅ Negocio Digital</li>
-                            <a class="boton boton-comprar" href="#">Comprar</a>
+                            <div class="lista">
+                                <li>✅ Clases más cortas</li>
+                                <li>✅ Mayor eficiencia</li>
+                                <li>✅ Manejo de automatizaciones</li>
+                                <li>✅ Negocio Digital</li>
+                            </div>
+                            <div class="boton boton-comprar">
+                                <a  href="#">Comprar</a>
+                            </div>
                         </div>
                         <div class="img-caiman">
                             <img src="img/vesion-caiman.webp" alt="">
@@ -135,15 +156,9 @@
     </section>
 
     <section>
-        <div class="viñeta">
-            <h2>¡PERMITIENDO ESTAR PRESENTE... EN UN MERCADO </br>GLOBAL Y DIGITAL!</h2>
-        </div>
-    </section>
-
-    <section>
-        <div class="fondo">
+        <div class="fondo-formulario">
             <div class="titulo-formulario">
-                <h2>Para proceder al pago </br> Llena el formulario</h2>
+                <h2>Para proceder al pago, llena el formulario</h2>
             </div>
             <div class="contenedor-formulario">
                 <form action="" class="form">
@@ -187,7 +202,7 @@
 
     <!--Footer-->
     <footer>
-        <p> Todos los derechos reservados 2023 &commat;</p>
+        <p> Denedig todos los derechos reservados 2023 ©</p>
     </footer>
 </body>
 </html>

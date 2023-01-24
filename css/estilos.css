@@ -45,7 +45,7 @@ li{
 }
 
 .boton-enviar{
-    background-color: black;
+    color: #41591D;
 }
 
 /* Utilidades */
@@ -98,7 +98,7 @@ color: rgb(0, 0, 0);
     background-image: url(../img/Caiman\ 2\ \(1\).svg);
     background-size: cover;
     background-position: right;
-    
+    padding: 4rem;
 }
 
 
@@ -133,6 +133,7 @@ color: rgb(0, 0, 0);
 /* Sección de promesas */
 
 .container-cover-blanco{
+    padding: 4rem;
 
 }
 
@@ -143,48 +144,34 @@ color: rgb(0, 0, 0);
     padding-bottom: 1rem;
     justify-content: space-between;
 }
-#puntos{
-    padding-top: 4rem;
-}
 .titulo-promesa {
     display: flex;
     justify-content: center;
+    margin-bottom: 3rem;
 }
 .titulo-promesa h2{
     font-weight: 700;
 }
 
-.contenedor-blanco .img1{
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    
-}
-
-.contenedor-blanco .img2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contenedor-blanco .img3{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-}
-
 .bloque-promesas {
-    font-size: 3.8rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
 }
 
 .img1 img{
-    width: 25rem;
+    width: 20rem;
 }
 .img2 img{
-    width: 25rem;
+    width: 20rem;
 }
 .img3 img{
-    width: 25rem;
+    width: 20rem;
 }
 
 /* Sección versiones de reto caiman */
@@ -193,7 +180,6 @@ main{
     background-color: #41591D;  
 }
 .container-cover-versiones{
-  /*  flex-wrap: wrap;*/
   max-width: 120rem;
   height: 100%;
   margin: auto;
@@ -321,6 +307,7 @@ main{
 .taller-digital{
     display: flex;
     padding-bottom: 0;
+    flex-wrap: wrap;
 }
 
 .taller-digital .texto{
@@ -416,13 +403,15 @@ main{
     margin-bottom:10rem ;
 }
 .contenedor-boton .submitBtn{
-    background-color: black;
+    background-color: rgb(25, 85, 38);
     color: white;
     font-weight: 100;
     text-decoration: none;
     font-size: 1.8rem;
+    margin-top: 3rem;
     padding: 1rem 5rem;
-    border-radius: 2rem;
+    border-radius: 3rem;
+    border-color: rgb(25, 85, 38);
 }
 .inputContainer select{
     width: 80%;
@@ -445,4 +434,29 @@ footer{
     margin: .5rem;
     display: flex;
     justify-content: center;
+}
+
+
+/* -- Responsive -- */
+
+@media screen and (max-width: 120rem){
+    header{
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width: 72rem){
+
+    .bloque-promesas {
+        font-size: 3rem;
+        }
+    .img1 img{
+        width: 28rem;
+    }
+    .img2 img{
+        width: 28rem;
+    }
+    .img3 img{
+        width: 28rem;
+    }
 }

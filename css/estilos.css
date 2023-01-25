@@ -162,6 +162,7 @@ color: rgb(0, 0, 0);
     text-align: center;
     margin-bottom: 5rem;
     flex-wrap: wrap;
+    margin: 0 15rem;
 }
 
 .img1 img{
@@ -308,6 +309,7 @@ main{
     display: flex;
     padding-bottom: 0;
     flex-wrap: wrap;
+    padding: 4rem;
 }
 
 .taller-digital .texto{
@@ -339,9 +341,11 @@ main{
     margin: 0 auto;
     padding-bottom: 10rem;
     display: flex;
-    
+    padding: 4rem;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
     }
 
 .titulo-formulario{
@@ -354,41 +358,37 @@ main{
     justify-content: center;
     align-items: center;
     color: white;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 .form{
-    background-color: white;
+    background: rgba(212, 212, 212, 0.596);
+    border-radius:2rem ;
+    backdrop-filter: blur(0.2rem);
     color: black;
     font-size: 2rem;
-    width: 54rem;
-    height: 43rem;
     padding: 2rem;
-    justify-content: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.divisor{
-    color: black;
-    font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
-    padding-left: 2rem;
     
 }
-.divisor input{
+
+.form input{
+    background: rgba(212, 212, 212, 0.596);
+    border-radius:2rem ;
+    backdrop-filter: blur(0.2rem);
     border-top: none;
     border-left: none;
     border-right: none;
     border-bottom: .1rem;
     border-bottom-style: solid;
     border-color: black;
+    margin-top: 4rem;
 }
 
-.divisor .inputContainer{
+.form .inputContainer{
+ 
     flex-wrap:wrap ;
-    width: 46%;
+    width: auto;
     min-height: 2.5rem;
     padding-top: 5rem;
     margin-left: 1rem;
@@ -412,18 +412,9 @@ main{
     padding: 1rem 5rem;
     border-radius: 3rem;
     border-color: rgb(25, 85, 38);
-}
-.inputContainer select{
-    width: 80%;
-}
-.inputContainer .label3{
-    margin-left: 0;
+    justify-content: end;
 }
 
-.inputContainer .input4{
-    display: flex;
-    width: 185%;
-}
 
 /* Footer*/
 footer{

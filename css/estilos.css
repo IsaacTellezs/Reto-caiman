@@ -13,7 +13,6 @@ h2{
     font-weight: 100;
 }
 
-
 p{
     font-size: 1.6rem;
 }
@@ -31,17 +30,24 @@ li{
     font-size: 1.2rem;
     padding: .5rem 2rem;
     border-radius: 2rem;
+    text-decoration: none;
 }
 .boton-adquirir{
+    background: rgba(32, 197, 46, 0.596);
+    border-radius:2rem ;
+    backdrop-filter: blur(0.2rem);
     padding: 1rem 3rem;
     font-size: 1.6rem;
-    background-color: #FF5F5D;
-    color: white;
+    color: #ffffff;
 }
 
 .boton-comprar{
     background-color: white;
-    color: black;  
+    color: black;
+    width: 6rem;  
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 .boton-enviar{
@@ -53,11 +59,6 @@ li{
 .negrita{
     font-weight: 700;
 }
-.contenedor{
-    max-width: 120rem;
-    margin: 0 auto;
-    padding-bottom: 1rem;
-}
 
 .fondo{
 background-color: rgb(255, 255, 255);
@@ -66,6 +67,11 @@ color: rgb(0, 0, 0);
 }
 .fondo-formulario{
     background-color: #41591D;
+}
+/*-- Header--*/
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto; 
 }
 
 .barra{
@@ -80,9 +86,10 @@ color: rgb(0, 0, 0);
 .principal{
     font-size: 4.5rem;
 }
+/* Termina el header */
 
 .presentacion{
-    padding-top: 5rem;
+    padding-top: 1rem;
     padding-left: 5rem;
 }
 
@@ -196,13 +203,22 @@ main{
     justify-content: center;
     text-align: center;
     color: rgb(255, 255, 255); 
+    margin: 0;
+    padding: 0;
+}
+#version-g1{
+    padding-top: 5rem;
+}
+
+
+#version-g2{
+    color: gold;
+    margin: 0;
+    padding-top: 0;
 }
 
 .cuadricula-versiones{
-   
-    padding-bottom: 3rem;
-   
-   
+    padding: 6rem;
 }
 .versiones{
     display: flex;
@@ -234,6 +250,7 @@ main{
     display: flex;
     justify-content: center;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .versiones .img-caiman{
     display: flex;
@@ -309,12 +326,11 @@ main{
     display: flex;
     padding-bottom: 0;
     flex-wrap: wrap;
-    padding: 4rem;
+    padding: 0 4rem;
 }
 
 .taller-digital .texto{
     padding-top: 10rem;
-    
     display: flex;
     flex-direction: column;
 }
@@ -361,13 +377,14 @@ main{
     margin-bottom: 5rem;
 }
 .form{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: rgba(212, 212, 212, 0.596);
     border-radius:2rem ;
     backdrop-filter: blur(0.2rem);
     color: black;
     font-size: 2rem;
     padding: 2rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
     flex-wrap: wrap;
     
 }
@@ -389,18 +406,18 @@ main{
  
     flex-wrap:wrap ;
     width: auto;
-    min-height: 2.5rem;
-    padding-top: 5rem;
+    min-height: 1rem;
+    padding-top: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
 }
 
 .contenedor-boton{
     display: flex;
-    margin-top: 5rem;
+    margin-top: 1rem;
     justify-content: center;
     align-items: center;
-    margin-bottom:10rem ;
+    margin-bottom:1rem ;
 }
 .contenedor-boton .submitBtn{
     background-color: rgb(25, 85, 38);
@@ -429,12 +446,6 @@ footer{
 
 
 /* -- Responsive -- */
-
-@media screen and (max-width: 120rem){
-    header{
-        padding: 4rem;
-    }
-}
 
 @media screen and (max-width: 72rem){
 

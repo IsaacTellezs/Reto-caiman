@@ -215,7 +215,6 @@ main{
 .cuadricula-versiones{
     margin: auto;
     padding: 4rem;
-    background-color: blueviolet;
 }
 .versiones{
     display: flex;
@@ -469,7 +468,7 @@ footer{
     }
 
     .versiones .img-caiman img{
-        width: 10rem;
+        width: 12rem;
          }
 
     .taller-digital .imagen-taller img{

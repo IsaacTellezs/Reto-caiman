@@ -185,13 +185,11 @@ main{
     background-image: radial-gradient(circle at 50% 120.71%, #668d34 0, #53872f 16.67%, #3a7e29 33.33%, #107220 50%, #006619 66.67%, #005d17 83.33%, #005519 100%);
 }
 .container-cover-versiones{
-     max-width: 120rem;
-    color: rgb(19, 19, 20);
+    max-width: 120rem;
   margin: auto;
   padding-top: 1rem;
   justify-content: space-between;
   flex-wrap: wrap;
-  
 }
 
 .container-cover-versiones h2{
@@ -216,6 +214,8 @@ main{
 
 .cuadricula-versiones{
     margin: auto;
+    padding: 4rem;
+    background-color: blueviolet;
 }
 .versiones{
     display: flex;
@@ -224,14 +224,15 @@ main{
 }
 .versiones .texto{
     display: flex;
-    flex-direction: column;
     padding-top: 1rem;
     padding-left: 3rem;
-    padding-right: 2rem; 
+    flex-wrap: wrap;
 }
 .versiones .texto h3{
     font-size:2rem;
     padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 .versiones .texto li{
     margin-top: .3rem;
@@ -255,7 +256,6 @@ main{
     justify-content: center;
     padding: auto;
     margin: 2rem;
- 
 }
 
 .version1 {
@@ -271,17 +271,15 @@ main{
     justify-content: space-between;
     
 }
-.version2{
-    background: rgba(212, 212, 212, 0.596);
+.version2 {
+    background: rgba(212, 212, 212, 0.596);;
     border-radius:2rem ;
     backdrop-filter: blur(0.2rem);
     display: flex;
     width: 45.4rem;
     height: 38.8rem;
-    margin: .5rem;
-    padding: 2rem;
+    margin: .5rem; 
 }
-
 
 .version3{
     background: rgba(212, 212, 212, 0.596);
@@ -469,6 +467,10 @@ footer{
     .img3 img{
         width: 28rem;
     }
+
+    .versiones .img-caiman img{
+        width: 10rem;
+         }
 
     .taller-digital .imagen-taller img{
         width: 30rem;

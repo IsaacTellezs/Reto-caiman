@@ -1,0 +1,115 @@
+/*Globales*/
+html{
+    font-size: 62.5% ; /* equivale 1 rem a 10 px */
+}
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+h1{
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.4rem;
+}
+
+li{
+    font-size: 1.3rem;
+}
+.boton{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: .6rem 3rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    border-style: solid;
+    border-color: black;
+}
+
+
+/* Fondo del Checkout*/
+.fondo-checkout{
+    background-image: url(../img/Fondo-natural.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 4rem;
+}
+/* Fin del fondo*/
+
+/* Contenedor del chekout */
+.contenedor-checkout{
+    max-width: 120rem;
+    margin: 0 auto;
+    background-color: white;
+    height: 100%;
+}
+
+/* Logo */
+
+.logo-checkout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.contenido h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+
+/* Tabla de los pagos */
+
+.contenido .tabla-check{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.contenido .tabla-check p{
+    margin-bottom: 3rem;
+}
+
+.contenido .tabla-check a{
+    margin-bottom: 3rem;
+}
+
+/* Pago 1 */
+
+.tabla-check .pago1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Pago 2 */
+
+.tabla-check .pago2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Texto de seguridad */
+
+.text-seguridad{
+    text-align: center;
+    padding: 3rem;
+}

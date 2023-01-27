@@ -42,12 +42,15 @@ li{
 }
 
 .boton-comprar{
-    background-color: white;
-    color: black;
-    width: 6rem;  
+    background-color: rgb(196, 183, 0);
+    color: rgb(255, 255, 255); 
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    margin-top:2rem ;
+    width: 10rem;
+    font-size: 2rem;
+    
 }
 
 .boton-enviar{
@@ -215,11 +218,15 @@ main{
 .cuadricula-versiones{
     margin: auto;
     padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .versiones{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 3rem;
 }
 .versiones .texto{
     display: flex;
@@ -313,6 +320,7 @@ main{
     font-style: italic;
     font-size: 3rem;
     text-transform: uppercase;
+    padding: 3rem;
 }
 
 /* Taller digital */
@@ -370,6 +378,7 @@ main{
     padding-top: 5rem;
     justify-content: center;
     font-size: 4rem;
+    padding: 4rem;
 }
 .titulo-formulario h2{
     display: flex;
@@ -467,8 +476,20 @@ footer{
         width: 28rem;
     }
 
+    .versiones{
+        width: 100%;
+    }
+    .versiones .texto{
+        display: flex;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        flex-wrap: wrap;
+    }
+
     .versiones .img-caiman img{
         width: 12rem;
+        margin: 0;
+        padding: 0;
          }
 
     .taller-digital .imagen-taller img{

@@ -22,18 +22,26 @@ p{
 li{
     font-size: 1.3rem;
 }
+/* Botones */
+
 .boton{
+    background-color: white;
     color: rgb(0, 0, 0);
     font-weight: 700;
     text-decoration: none;
-    font-size: 1.2rem;
-    padding: .6rem 3rem;
+    font-size: 1.6rem;
+    padding: .8rem 3rem;
     border-radius: 2rem;
     text-decoration: none;
+    border-width: .2rem;
     border-style: solid;
     border-color: black;
 }
 
+.paypal{
+    background-color: rgb(7, 79, 235);
+    color: white;
+}
 
 /* Fondo del Checkout*/
 .fondo-checkout{
@@ -67,6 +75,7 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     padding: 2rem;
     margin: 1rem;
 }
@@ -79,10 +88,14 @@ li{
     display: flex;
     justify-content: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .contenido .tabla-check p{
     margin-bottom: 3rem;
+    font-size: 2rem;
+    font-weight: 500;
 }
 
 .contenido .tabla-check a{
@@ -92,19 +105,37 @@ li{
 /* Pago 1 */
 
 .tabla-check .pago1{
+    background: rgba(212, 212, 212, 0.596);
+    border-radius:2rem ;
+    backdrop-filter: blur(0.2rem);
+    padding: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 1rem;
+}
+
+.tabla-check .pago1 p{
+    color: rgb(14, 27, 146);
 }
 
 /* Pago 2 */
 
 .tabla-check .pago2{
+    background: rgba(212, 212, 212, 0.596);
+    border-radius:2rem ;
+    backdrop-filter: blur(0.2rem);
+    padding: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 1rem;
+}
+
+.tabla-check .pago2 p{
+    color: rgb(190, 173, 19);
 }
 
 /* Texto de seguridad */

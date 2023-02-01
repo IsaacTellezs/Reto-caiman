@@ -58,6 +58,7 @@ li{
     margin: 0 auto;
     background-color: white;
     height: 100%;
+    border-radius: 3rem;
 }
 
 /* Logo */
@@ -116,9 +117,6 @@ li{
     margin: 1rem;
 }
 
-.tabla-check .pago1 p{
-}
-
 /* Pago 2 */
 
 .tabla-check .pago2{
@@ -133,13 +131,38 @@ li{
     margin: 1rem;
 }
 
-.tabla-check .pago2 p{
-    
-}
-
 /* Texto de seguridad */
 
 .text-seguridad{
     text-align: center;
     padding: 3rem;
+}
+
+
+/* ThanksCaiman */
+.contenedorThanks{
+    background-image: url(../img/fiesta.gif);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position-x: center;
+    height: 40rem;
+    display: flex;
+    margin-top: 0rem;
+    padding-top: 0rem;
+    justify-content: center;
+}
+
+#principalThanks{
+    font-size: 7rem;
+    display: flex;
+    align-items: flex-start;
+    margin: 5rem;
+}
+
+#fiesta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
 }

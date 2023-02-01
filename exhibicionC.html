@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Reto C.A.I.M.A.N</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo-check.css"> 
+    
+</head>
+<body>
+    <div class="fondo-checkout">
+        <div class="contenedor-checkout">
+            <div class="contenido">
+                <div class="logo-checkout">
+                    <a href="/"> <img src="img/Logo-retocaiman.webp" alt="Logotipo de reto caiman"> </a>
+                </div>
+                <h1 class="principal">Estás a un paso de adquirir el Reto C.A.I.M.A.N</h1>
+                <div class="tabla-check">
+                    <div class="pago1">
+                        <h3>Pago en una exhibición</h3>
+                        <p>Costo total $3500 MXN</p>
+                        <script src="https://www.paypal.com/sdk/js?client-id=ATM9EZwjfNeOq1EzjB-FmA7hQogwAeyE8tuv4ROSRHElhoI5As5UJGZje6XfxY727rnYNFL4eXn_Jiez&currency=MXN" data-sdk-integration-source="integrationbuilder"> 
+                        </script>
+                        <div id="paypal-button-container"></div>
+                        <script>
+                            paypal.Buttons({
+                                style:{
+                                    color:'blue',
+                                    shape:'pill',
+                                },
+                                createOrder: function(data, actions){
+                                    return actions.order.create({
+                                        purchase_units: [{
+                                            amount: {
+                                                value: 3500
+                                            }
+                                        }]
+                                    });
+                                },
+
+                                onApprove: function(data, actions){
+                                    actions.order.capture().then(function(detalles){
+                                        window.location.href="thanksCaiman.html"
+                                    });
+                                },
+
+                                onCancel: function(data){
+                                    alert("Pago cancelado");
+                                    console.log(data)
+                                }
+                            }).render('#paypal-button-container');
+                        </script>
+                   </div>
+                </div>
+            </div>
+            <div class="text-seguridad">
+                <p>Recuerda que tus pagos son 100% seguros con PayPal y tarjetas bancarias.</p>
+                <p>No pierdas la oportunidad de adquirir el reto C.A.I.M.A.N.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

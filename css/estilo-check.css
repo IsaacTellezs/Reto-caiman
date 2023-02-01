@@ -39,7 +39,7 @@ li{
 }
 
 .paypal{
-    background-color: rgb(7, 79, 235);
+    background-color: rgb(16, 64, 167);
     color: white;
 }
 
@@ -117,7 +117,6 @@ li{
 }
 
 .tabla-check .pago1 p{
-    color: rgb(14, 27, 146);
 }
 
 /* Pago 2 */
@@ -135,7 +134,7 @@ li{
 }
 
 .tabla-check .pago2 p{
-    color: rgb(190, 173, 19);
+    
 }
 
 /* Texto de seguridad */
